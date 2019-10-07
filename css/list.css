@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/*body{ margin:0; padding:0; font-size:12px; font-family:"宋体"; color:#FFF; background:#FFF; transition: all 0.3s; background: #efeeee; overflow-x: hidden; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; -moz-font-feature-settings: 'liga', 'kern'; }
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-position: 200px;
+}*/
+body{ margin:0; padding:0; font-size:12px; font-family:"宋体"; color:#FFF; background:#FFF;}
+/*清除浏览器的默认样式*/
+h1,h2,h3,h4,ul,li,dl,dt,dd,img,input,button,select,p,div{ margin:0; padding:0; border:0; list-style:none;}
+/*公共样式*/
+a:link,a:visited{ color:#FFF; text-decoration:none;}
+a:hover{color:#E60012; text-decoration:none;}
+/*header*/
+#header{
+	width: 100%;
+	height: 114px;
+	margin: 0 auto;
+	background: #212121;
+}
+.nav{ width:1000px; height:200px; margin:0 auto; font-size:18px; font-family:"微软雅黑"; color:#FFF; padding-top:20px; }
+.leftNav{ float:left; width:300px; margin-right:100px;}
+.rightNav{ float:left;}
+.rightNav span{ width:150px; display:inline-block; margin-top:23px; text-align:center;}
+.rightNav span a:link,a:visited{ color:#FFF; text-decoration:none;}
+.rightNav span a:hover{color:#FFF; width:96px; height:34px; text-decoration:none; background:url(../images/click.png) no-repeat; display:inline-block;}
+#banner{
+	width: 100%;
+	height: 236px;
+	margin: 0px auto 0;
+	background:url(../list/list_banner.jpg) top center;
+}
+#activity01{ width:1000px; height:180px; margin:30px auto 0; }
+#zy{ width:1000px; overflow:hidden; margin:20px auto 0;}
+#zy li{ float:left; margin-right:29px; margin-bottom:50px;}
+#zy li.special{ float:left; margin-right:0;}
+#advertisement{ width:1920px; height:162px; margin:40px auto 0;}
+#activity02{ width:1000px; height:180px; margin:30px auto 0; }
+#qyz{ width:1000px; overflow:hidden; margin:20px auto 0;}
+#qyz li{ float:left; margin-right:29px; margin-bottom:50px;}
+#qyz li.special{ float:left; margin-right:0;}
+#activity03,#activity04{ width:1000px; height:180px; margin:30px auto 0; }
+#ds{ width:1000px; overflow:hidden; margin:20px auto 0;}
+#ds li{ float:left; margin-right:29px; margin-bottom:50px;}
+#ds li.special{ float:left; margin-right:0;}
+#list_footer{ text-align:center; background:url(../images/index_footerbg.jpg);width:100%; height:409px; margin:30px auto 0;}

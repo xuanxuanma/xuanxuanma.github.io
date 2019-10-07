@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{ margin:0; padding:0; font-size:12px; font-family:"宋体"; color:#FFF; background:#e79fa6;}
+/*清除浏览器的默认样式*/
+h1,h2,h3,h4,ul,li,dl,dt,dd,img,input,button,select,p,div{ margin:0; padding:0; border:0; list-style:none;}
+/*公共样式*/
+a:link,a:visited{ color:#FFF; text-decoration:none;}
+a:hover{color:#E60012; text-decoration:none;}
+#header{ width:1920px; height:114px; margin:0 auto; background:#212121;}
+.nav{ width:1000px; height:200px; margin:0 auto; font-size:18px; font-family:"微软雅黑"; color:#FFF; padding-top:20px; }
+.leftNav{ float:left; width:300px; margin-right:100px;}
+.rightNav{ float:left;}
+.rightNav span{ width:150px; display:inline-block; margin-top:23px; text-align:center;}
+.rightNav span a:link,a:visited{ color:#FFF; text-decoration:none;}
+.rightNav span a:hover{color:#FFF; width:96px; height:34px; text-decoration:none; background:url(../images/click.png) no-repeat; display:inline-block;}
+#banner{ width:1920px; height:848px; margin:0px auto 0;}
+#detail{ width:1000px; height:4789px; margin:-550px auto 0;}
+#footer{ width:1920px; height:100px; margin: 100px auto 0;}
